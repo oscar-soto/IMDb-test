@@ -1,0 +1,15 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+header .nav__menu .nav__menu--container:hover svg {
+  stroke-width: 1.5;
+}
+
+header .nav__watchList .nav__watchList--container:hover svg {
+  opacity: 1;
+}
