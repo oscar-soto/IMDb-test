@@ -60,7 +60,7 @@
         </div>
 
         <!-- Search -->
-        <div class="order-3 nav__search w-4/5 h-8 mx-2 lg:w-3/5">
+        <div class="order-3 nav__search w-4/5 h-8 mx-2 lg:w-4/5">
           <form action="#" class="relative hidden sm:flex justify-between items-center h-full rounded overflow-hidden">
             <div class="nav__search--category relative z-10 flex justify-center items-center min-w-min h-full bg-white border-r border-black">
               <label class="ml-2 text-sm font-medium">
@@ -150,5 +150,213 @@
       </nav>
     </header>
     <!-- Header -->
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero__container mx-auto lg:container py-2 px-6 text-white">
+
+        <!-- Hero header -->
+        <div class="hero__header flex items-end mb-1">
+          <!-- Film title -->
+          <div class="hero__header--title mt-7 mb-3 w-4/6">
+            <h2 class="movie-title text-5xl text-white mb-2">The Blind Side</h2>
+            <div class="movie-info">
+              <ul class="point-list flex justify-start items-center">
+                <li class="points">
+                  <a class="text-white text-sm opacity-60 hover:underline tracking-wider" href="#">2009</a>
+                </li>
+                <li class="points">
+                  <a class="text-white text-sm opacity-60 hover:underline tracking-wider" href="#">PG-13</a>
+                </li>
+                <li class="points">
+                  <div class="text-white text-sm opacity-60 tracking-wider">2h 9min</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Film statistics -->
+          <div class="hero__header--statistics w-2/6">
+            <div class="statistics__container flex mb-3">
+
+              <!-- IMDb Rating -->
+              <div class="imdb-rating w-full">
+                <div class="title mb-1 text-white text-xs text-center tracking-widest font-medium opacity-60">IMDb RATING</div>
+                <div class="statistics__number flex justify-center items-center">
+                  <div class="statistics__number--container lg:flex justify-center items-center px-2 py-1 cursor-pointer rounded-sm hover:bg-opacity-20 hover:bg-white transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="text-yellow-400 h-8 w-8" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                      <path d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"></path>
+                    </svg>
+                    <div class="numbers ml-2 leading-3">
+                      <div class="score flex items-center">
+                        <span class="porcent text-white text-xl leading-5">7.6</span>
+                        <span class="text-white font-light opacity-60 ml-1">/10</span>
+                      </div>
+                      <div class="rating-amount text-white opacity-60">
+                        <span class="text-xs font-light">307K</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Your Rating -->
+              <div class="popularity-rating w-full">
+                <div class="title mb-1 text-white text-xs text-center tracking-widest font-medium opacity-60">YOUR RATING</div>
+                <div class="statistics__number flex justify-center items-center">
+                  <div class="statistics__number--container lg:flex justify-center items-center px-2 py-1 cursor-pointer rounded-sm hover:bg-opacity-20 hover:bg-white transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="text-blue-400 h-8 w-8" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                      <path fill="none" d="M0 0h24v24H0V0z"></path>
+                      <path d="M19.65 9.04l-4.84-.42-1.89-4.45c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.73 3.67-3.18c.67-.58.32-1.68-.56-1.75zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path>
+                    </svg>
+                    <div class="statistics__title ml-1 text-xl text-blue-400 font-medium tracking-wider">
+                      Rate
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Popularity Rating -->
+              <div class="imdb-rating w-full">
+                <div class="title mb-1 text-white text-xs text-center tracking-widest font-medium opacity-60">POPULARITY</div>
+                <div class="statistics__number flex justify-center items-center">
+                  <div class="statistics__number--container lg:flex justify-center items-center px-2 py-1 cursor-pointer rounded-sm hover:bg-opacity-20 hover:bg-white transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="text-green-700 h-8 w-8" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                      <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-2.6 0-5-1.3-6.4-3.3l2.8-3.4 1.3 1.5c.4.4 1 .4 1.3 0l2.9-3.2 1.3 1.4c.3.3.8.1.8-.3V8.5c0-.3-.2-.5-.5-.5h-4c-.4 0-.6.5-.3.8l1.3 1.4-2.2 2.5L9 11.3c-.4-.4-1-.4-1.3 0L4.6 15c-.4-.9-.6-1.9-.6-3 0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8z"></path>
+                    </svg>
+                    <div class="popularity ml-2 flex items-center">
+                      <div class="score text-white text-xl">535</div>
+                      <div class="delta flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="text-white w-6 h-6 -mr-1" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                          <path fill="none" d="M0 0h24v24H0V0z"></path>
+                          <path d="M8.71 12.29L11.3 9.7a.996.996 0 0 1 1.41 0l2.59 2.59c.63.63.18 1.71-.71 1.71H9.41c-.89 0-1.33-1.08-.7-1.71z"></path>
+                        </svg>
+                        <span class="text-white opacity-60 font-light">285</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Film statistics -->
+        </div>
+        <!-- Hero header -->
+
+        <!-- Hero subNav -->
+        <div class="hero__subNav flex justify-end items-center px-2 mb-4 text-sm bg-white bg-opacity-10 rounded tracking-wide">
+          <div class="hero__subNav--list">
+            <ul class="point-list op-1 flex justify-center items-center">
+              <li class="points">
+                <a href="#" class="hover:underline">Cast & crew</a>
+              </li>
+              <li class="points">
+                <a href="#" class="hover:underline">User reviews</a>
+              </li>
+              <li class="points">
+                <a href="#" class="hover:underline">Trivia</a>
+              </li>
+              <li class="points">
+                <a href="#" class="hover:underline">IMDb Pro</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__subNav--topics ml-2">
+            <div class="lg:flex justify-center items-center px-3 py-2 cursor-pointer rounded-sm hover:bg-opacity-20 hover:bg-white transition duration-300">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                <path d="M12.036 17.153a4.579 4.579 0 0 1 5.117-5.117c1.97.239 3.604 1.802 3.935 3.758a4.576 4.576 0 0 1-1.042 3.76l.197.19h.556L22.5 21.5a.743.743 0 0 1 0 1.049.743.743 0 0 1-1.049 0l-1.708-1.75v-.556l-.19-.197a4.576 4.576 0 0 1-3.759 1.042c-1.956-.331-3.519-1.964-3.758-3.935zm4.54-3.745a3.163 3.163 0 0 0-3.168 3.168 3.163 3.163 0 0 0 3.168 3.167 3.163 3.163 0 0 0 3.167-3.167 3.163 3.163 0 0 0-3.167-3.168zM8.298 11.972c1.47 0 2.73 1.26 2.73 2.73v3.464c0 1.574-1.26 2.834-2.73 2.834H4.834A2.822 2.822 0 0 1 2 18.166v-3.464c0-1.47 1.26-2.73 2.73-2.73h3.568zm0 1.47H4.834c-.735 0-1.26.525-1.26 1.26v3.464c0 .735.525 1.26 1.26 1.26h3.464c.735 0 1.26-.525 1.26-1.26v-3.464c0-.63-.525-1.26-1.26-1.26zM8.298 2c1.47 0 2.73 1.26 2.73 2.73v3.463c0 1.575-1.26 2.73-2.73 2.73H4.834C3.26 10.923 2 9.768 2 8.193V4.73C2 3.26 3.26 2 4.73 2h3.568zm0 1.47H4.834c-.735 0-1.26.524-1.26 1.26v3.463c0 .735.525 1.26 1.26 1.26h3.464c.735 0 1.26-.525 1.26-1.26V4.73c0-.735-.525-1.26-1.26-1.26zM18.27 2C19.74 2 21 3.26 21 4.73v3.463c0 1.575-1.155 2.73-2.73 2.73h-3.463c-1.47 0-2.73-1.26-2.73-2.73V4.73c0-1.47 1.26-2.729 2.73-2.729h3.464zm0 1.47h-3.463c-.735 0-1.26.524-1.26 1.26v3.463c0 .735.525 1.26 1.26 1.26h3.464c.735 0 1.26-.525 1.26-1.26V4.73c0-.735-.525-1.26-1.26-1.26z"></path>
+              </svg>
+              <div class="ml-1">All topics</div>
+            </div>
+          </div>
+
+          <div class="hero__subNav--share">
+            <div class="statistics__number--container lg:flex justify-center items-center px-3 py-3 cursor-pointer rounded-full hover:bg-opacity-20 hover:bg-white transition duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Hero subNav -->
+
+        <!-- Hero media -->
+        <div class="hero__media">
+          <div class="hero__media--container flex items-stretch">
+            <!-- Poster -->
+            <div class="hero__media--poster w-3/12 relative pr-1">
+              <a href="#">
+                <div class="poster__img hover:opacity-90 transition duration-300 ">
+                  <img class="w-full object-cover md:h-full" src="./assets/img/jpg/poster.jpg" alt="">
+                </div>
+                <div class="poster__icon absolute top-0">
+                  <div class="relative hover:opacity-70 transition duration-300">
+                    <svg class="watchList" width="24px" height="34px" viewBox="0 0 24 34" xmlns="http://www.w3.org/2000/svg" role="presentation">
+                      <polygon class="watchList-ribbon" fill="#000000" points="24 0 0 0 0 32 12.2436611 26.2926049 24 31.7728343"></polygon>
+                      <polygon class="watchList-hover" points="24 0 0 0 0 32 12.2436611 26.2926049 24 31.7728343"></polygon>
+                      <polygon class="watchList-shadow" points="24 31.7728343 24 33.7728343 12.2436611 28.2926049 0 34 0 32 12.2436611 26.2926049"></polygon>
+                    </svg>
+                    <div class="icon-plus absolute">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                        <path fill="none" d="M0 0h24v24H0V0z"></path>
+                        <path d="M18 13h-5v5c0 .55-.45 1-1 1s-1-.45-1-1v-5H6c-.55 0-1-.45-1-1s.45-1 1-1h5V6c0-.55.45-1 1-1s1 .45 1 1v5h5c.55 0 1 .45 1 1s-.45 1-1 1z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Video -->
+            <div class="hero__media--video w-7/12 pr-1 min-h-full relative">
+              <a href="#" class="block h-full">
+                <div class="media-bg h-full">
+                  <div class="media-bg__container flex relative h-full">
+                    <img class="w-full h-full top-0 left-0 object-cover absolute" src="./assets/img/jpg/hero_video.jpg" alt="">
+                    <div class="media-play absolute">
+                      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="ipc-icon ipc-icon--play-circle-outline-large-inline ipc-icon--inline ipc-lockup-overlay__icon ipc-lockup-overlay__icon--centered hero-media__slate-play-icon" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                        <path d="M10.803 15.932l4.688-3.513a.498.498 0 0 0 0-.803l-4.688-3.514a.502.502 0 0 0-.803.402v7.026c0 .412.472.653.803.402z"></path>
+                        <path d="M12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12zm0-1c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11z"></path>
+                      </svg>
+                      <div class="media-play__trailer">
+                        <span>Play trailer</span>
+                        <span class="time">2:58</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- More -->
+            <div class="hero__media--more w-2/12">
+              <a href="#">
+                <div class="more-video__card">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="ipc-icon ipc-icon--video-library ipc-icon--inline Link__MediaLinkIcon-yyqs5y-0 fnIBpM" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                    <path d="M3 6c-.55 0-1 .45-1 1v13c0 1.1.9 2 2 2h13c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1-.45-1-1V7c0-.55-.45-1-1-1zm17-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l5.47 4.1c.27.2.27.6 0 .8L12 14.5z"></path>
+                  </svg>
+                </div>
+              </a>
+              <a href="#">
+                <div class="more-photos__card">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="ipc-icon ipc-icon--collections ipc-icon--inline Link__MediaLinkIcon-yyqs5y-0 fnIBpM" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                    <path fill="none" d="M0 0h24v24H0V0z"></path>
+                    <path d="M22 16V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2zm-10.6-3.47l1.63 2.18 2.58-3.22a.5.5 0 0 1 .78 0l2.96 3.7c.26.33.03.81-.39.81H9a.5.5 0 0 1-.4-.8l2-2.67c.2-.26.6-.26.8 0zM2 7v13c0 1.1.9 2 2 2h13c.55 0 1-.45 1-1s-.45-1-1-1H5c-.55 0-1-.45-1-1V7c0-.55-.45-1-1-1s-1 .45-1 1z"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Hero media -->
+
+
+      </div>
+    </section>
+    <!-- Hero Section -->
   </body>
 </html>

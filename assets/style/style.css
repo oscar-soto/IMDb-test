@@ -1,3 +1,4 @@
+/* Global */
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -6,10 +7,89 @@ html {
   scroll-behavior: smooth;
 }
 
+.point-list .points {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.point-list .points::before {
+  content: '';
+  position: absolute;
+  left: calc(-0.5rem - 1px);
+  width: 2px;
+  height: 2px;
+  background-color: #FFF;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.point-list.op-1 .points::before {
+  opacity: 1;
+}
+
+.point-list .points:first-child {
+  margin-left: 0;
+}
+
+.point-list .points:first-child::before {
+  content: unset;
+}
+
+/* Header */
 header .nav__menu .nav__menu--container:hover svg {
   stroke-width: 1.5;
 }
 
 header .nav__watchList .nav__watchList--container:hover svg {
   opacity: 1;
+}
+
+/* Hero */
+section.hero {
+  background-color: #1f1f1f;
+}
+
+section.hero .statistics__container .title {
+  letter-spacing: 0.15rem;
+}
+
+section.hero .hero__subNav--share {
+  position: relative;
+}
+
+section.hero .hero__subNav--share::before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 1px;
+  height: 50%;
+  background-color: #FFFFFF60;
+
+}
+
+section.hero .poster__icon .watchList {
+  width: 40px;
+  height: 57px;
+}
+
+section.hero .poster__icon .watchList .watchList-ribbon {
+  fill: rgba(0, 0, 0, 0.6);  
+  stroke: rgba(0, 0, 0, 0.25);  
+}
+
+section.hero .poster__icon .watchList .watchList-hover {
+  fill: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+}
+
+section.hero .poster__icon .watchList .watchList-shadow {
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+section.hero .poster__icon .icon-plus {
+  top: 5px;
+  left: 5px;
 }
