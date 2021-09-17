@@ -388,21 +388,21 @@ section.hero .meta__credit--items .content svg {
 @media only screen and (max-width: 700px) {
   .video {
     position: relative;
-    width: 110%;
+    width: 200%;
   }
 
   .video .arrow__slider {
-    right: 5%;
+    right: 50%;
     top: 20%;
   }
 
   .photo {
     position: relative;
-    width: 110%;
+    width: 200%;
   }
 
   .photo .arrow__slider {
-    right: 5%;
+    right: 50%;
     top: 20%;
   }
 }
