@@ -45,6 +45,14 @@ html {
   left: calc(50% - 28px);
 }
 
+.suggest__btn {
+  width: 48%;
+}
+
+.arrow__slider {
+  top: 30%;
+}
+
 @media only screen and (min-width: 1280px) {
   .point-list .points {
     position: relative;
@@ -366,8 +374,4 @@ section.hero .meta__credit--items .content svg {
 
 .office .office__links .content {
   text-decoration-color: black;
-}
-
-.suggest__btn {
-  width: 48%;
 }

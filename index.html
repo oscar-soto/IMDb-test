@@ -619,10 +619,10 @@
 
     <!-- Page Content -->
     <div class="page-content my-4">
-      <div class="page-content__container flex flex-col md:flex-row mx-auto lg:container sm:px-6">
+      <div class="page-content__container flex flex-col lg:flex-row mx-auto lg:container sm:px-6">
 
         <!-- content -->
-        <div class="content-body w-2/3 pr-2">
+        <div class="content-body lg:w-2/3 pr-2">
 
           <!-- Oscar's -->
           <div class="oscar-won my-3 pb-5">
@@ -653,10 +653,10 @@
             </div>
 
             <!-- carousel -->
-            <div class="videos__slider flex">
+            <div class="videos__slider relative flex items-center">
 
               <!-- carosel item -->
-              <div class="videos__slider--card w-96 mr-6">
+              <div class="videos__slider--card w-2/4 lg:w-96 mr-4 lg:mr-6">
                 <a href="#">
                   <div class="video__img relative">
                     <div class="video__img--bg">
@@ -684,7 +684,7 @@
               </div>
 
               <!-- carosel item -->
-              <div class="videos__slider--card w-96 mr-6">
+              <div class="videos__slider--card w-2/4 lg:w-96 mr-4 lg:mr-6">
                 <a href="#">
                   <div class="video__img relative">
                     <div class="video__img--bg">
@@ -709,6 +709,12 @@
                     </a>
                   </div>
                 </div>
+              </div>
+
+              <div class="arrow__slider absolute right-0 py-5 px-3 text-white bg-black bg-opacity-40 border border-white rounded-md cursor-pointer hover:text-yellow-400 transition duration-300">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="ipc-icon ipc-icon--chevron-right-inline ipc-icon--inline ipc-pager-icon" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                  <path d="M5.622.631A2.153 2.153 0 0 0 5 2.147c0 .568.224 1.113.622 1.515l8.249 8.34-8.25 8.34a2.16 2.16 0 0 0-.548 2.07c.196.74.768 1.317 1.499 1.515a2.104 2.104 0 0 0 2.048-.555l9.758-9.866a2.153 2.153 0 0 0 0-3.03L8.62.61C7.812-.207 6.45-.207 5.622.63z"></path>
+                </svg>
               </div>
             </div>
 
@@ -726,7 +732,7 @@
             </div>
 
             <!-- carousel -->
-            <div class="photo__slider flex">
+            <div class="photo__slider flex relative">
 
               <!-- carosel item -->
               <div class="photo__slider--card w-3/12 pr-6">
@@ -769,6 +775,11 @@
                 </a>
               </div>
               
+              <div class="arrow__slider absolute right-0 py-5 px-3 text-white bg-black bg-opacity-40 border border-white rounded-md cursor-pointer hover:text-yellow-400 transition duration-300">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="ipc-icon ipc-icon--chevron-right-inline ipc-icon--inline ipc-pager-icon" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                  <path d="M5.622.631A2.153 2.153 0 0 0 5 2.147c0 .568.224 1.113.622 1.515l8.249 8.34-8.25 8.34a2.16 2.16 0 0 0-.548 2.07c.196.74.768 1.317 1.499 1.515a2.104 2.104 0 0 0 2.048-.555l9.758-9.866a2.153 2.153 0 0 0 0-3.03L8.62.61C7.812-.207 6.45-.207 5.622.63z"></path>
+                </svg>
+              </div>
             </div>
 
           </section>
@@ -976,7 +987,7 @@
             </div>
 
             <!-- carousel -->
-            <div class="like__slider flex">
+            <div class="like__slider flex relative">
 
               <!-- carosel item -->
               <div class="like__slider--poster w-3/12 pr-6">
@@ -1240,6 +1251,12 @@
                     </button>
                   </div>
                 </div>
+              </div>
+
+              <div class="arrow__slider absolute right-0 py-5 px-3 text-white bg-black bg-opacity-40 border border-white rounded-md cursor-pointer hover:text-yellow-400 transition duration-300">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="ipc-icon ipc-icon--chevron-right-inline ipc-icon--inline ipc-pager-icon" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                  <path d="M5.622.631A2.153 2.153 0 0 0 5 2.147c0 .568.224 1.113.622 1.515l8.249 8.34-8.25 8.34a2.16 2.16 0 0 0-.548 2.07c.196.74.768 1.317 1.499 1.515a2.104 2.104 0 0 0 2.048-.555l9.758-9.866a2.153 2.153 0 0 0 0-3.03L8.62.61C7.812-.207 6.45-.207 5.622.63z"></path>
+                </svg>
               </div>
             </div>
           </section>
@@ -1995,7 +2012,7 @@
         </div>
 
         <!-- Aside -->
-        <div class="content-aside w-1/3 pt-3 pl-14">
+        <div class="content-aside p-8 sm:p-0 lg:w-1/3 pt-3 lg:pl-8 xl:pl-14">
           <div class="content__title mb-6">
             <h3 class="text-3xl pl-3 relative font-semibold">More to explore</h3>
           </div>
@@ -2037,10 +2054,10 @@
             </div>
 
             <!-- aside card -->
-            <div class="aside__card--list">
+            <div class="aside__card--list flex flex-wrap lg:block">
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pr-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2051,7 +2068,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2059,7 +2076,7 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pl-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2070,7 +2087,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2078,7 +2095,7 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pr-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2089,7 +2106,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2097,7 +2114,7 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pl-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2108,7 +2125,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2116,7 +2133,7 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pr-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2127,7 +2144,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2167,7 +2184,7 @@
           <!-- user lists -->
           <section class="user my-10">
 
-            <div class="user__header mb-2">
+            <div class="user__header flex lg:block justify-between mb-2">
               <a href="">
                 <h3 class="user__header--title text-2xl font-semibold mb-2 flex items-center">
                   User lists
@@ -2191,10 +2208,10 @@
             </div>
 
             <!-- aside card -->
-            <div class="aside__card--list">
+            <div class="aside__card--list flex flex-wrap lg:block">
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pr-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2205,7 +2222,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2213,7 +2230,7 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pl-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2224,7 +2241,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2232,7 +2249,7 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pr-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2243,7 +2260,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2251,7 +2268,7 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pl-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2262,7 +2279,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2270,7 +2287,7 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pr-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-between">
@@ -2281,7 +2298,7 @@
                         <span>43 titles</span>
                       </div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2307,16 +2324,16 @@
             </div>
 
             <!-- aside card -->
-            <div class="aside__card--list">
+            <div class="aside__card--list flex flex-wrap lg:block">
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pr-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-center">
                       <div class="title text-sm">New on Netflix India this May 2021</div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2324,13 +2341,13 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pl-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-center">
                       <div class="title text-sm">New on Netflix India this May 2021</div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2338,13 +2355,13 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pr-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-center">
                       <div class="title text-sm">New on Netflix India this May 2021</div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2352,13 +2369,13 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pl-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-center">
                       <div class="title text-sm">New on Netflix India this May 2021</div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
@@ -2366,13 +2383,13 @@
               </div>
 
               <!-- aside item -->
-              <div class="aside__card--items mb-2">
+              <div class="aside__card--items w-full sm:w-2/4 sm:pr-2 lg:w-full mb-2">
                 <a href="#">
                   <div class="aside__card--container flex justify-between border border-black border-opacity-20 rounded-md p-1 h-24">
                     <div class="aside__card--content w-9/12 px-3 py-2 flex flex-col justify-center">
                       <div class="title text-sm">New on Netflix India this May 2021</div>
                     </div>
-                    <div class="asider__card--img w-1/5 flex items-center justify-center overflow-hidden">
+                    <div class="asider__card--img w-16 md:w-1/6 lg:w-1/5 flex items-center justify-center overflow-hidden">
                       <img src="./assets/img/jpg/img1.jpg" alt="" class="max-w-full object-cover">
                     </div>
                   </div>
