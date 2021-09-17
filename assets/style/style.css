@@ -200,6 +200,10 @@ section.hero .meta__credit--items .content svg {
 }
 
 /* Page content */
+.page-content {
+  background-color: #fafafa;
+}
+
 .page-content .content__title h3::before {
   content: "";
   position: absolute;
@@ -404,6 +408,8 @@ section.hero .meta__credit--items .content svg {
 }
 
 @media only screen and (max-width: 1024px) {
-
+  .cast .arrow__slider {
+    top: 20%;
+  }
 }
 
