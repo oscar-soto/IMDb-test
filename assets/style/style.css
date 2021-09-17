@@ -359,3 +359,12 @@ section.hero .meta__credit--items .content svg {
   transform: skewX(-20deg);
 }
 
+.office .office__links .content svg{
+  width: 10px;
+  height: 10px;
+}
+
+.office .office__links .content {
+  text-decoration-color: black;
+}
+
