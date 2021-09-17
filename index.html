@@ -2403,17 +2403,25 @@
 
     <!-- Footer -->
     <footer class="bg-black text-white">
-      <div class="footer__container mx-auto sm:px-3 py-2 lg:container">
-        <section class="viewed py-4">
+      <div class="footer__container mx-auto py-2 lg:container">
+        <section class="viewed py-4 sm:px-3">
           <h3 class="px-4 mb-4 text-2xl font-semibold">Recently viewed</h3>
           <div class="viewed__conatiner p-4 font-medium mb-12">
             <p>You have no recently viewed pages</p>
           </div>
         </section>
-        <section class="footer__contact">
+
+        <!-- Mobile -->
+        <section class="footer__btn flex justify-center items-center py-4 mb-4 bg-white bg-opacity-10 lg:hidden">
+          <a href="" class="flex items-center px-8 py-2 text-sm text-black tracking-wide font-semibold leading-5 bg-yellow-400 rounded">
+            Get the IMDb App
+          </a>
+        </section>
+
+        <section class="footer__contact w-9/12 mx-auto sm:w-10/12 sm:px-3 md:w-9/12 lg:w-full">
           <div class="footer__rrss flex justify-center items-center">
-            <ul class="flex justify-center items-center mb-4">
-              <li>
+            <ul class="flex flex-wrap justify-center items-center mb-4">
+              <li class="">
                 <a href="#" class="flex justify-center items-center p-3 mx-2 rounded-full text-2xl hover:bg-opacity-20 hover:bg-white transition duration-300">
                   <i class="fab fa-facebook-square"></i>
                 </a>
@@ -2441,8 +2449,8 @@
             </ul>
           </div>
           <div class="footer__links flex justify-center items-center">
-            <ul class="flex justify-center items-center">
-              <li>
+            <ul class="flex flex-wrap justify-center items-center">
+              <li class="hidden lg:block">
                 <a href="#" class="flex justify-center items-center mx-4 py-2 hover:underline">
                   Get the IMDb App
                   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="ml-2 h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" role="presentation">
@@ -2493,7 +2501,7 @@
             </ul>
           </div>
           <div class="footer__links flex justify-center items-center">
-            <ul class="flex justify-center items-center">
+            <ul class="flex flex-wrap justify-center items-center">
               <li>
                 <a href="#" class="flex justify-center items-center mx-4 py-2 hover:underline">
                   Press Room
