@@ -5,6 +5,7 @@ body {
 body,
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .point-list .points {
@@ -51,10 +52,6 @@ html {
 
 .arrow__slider {
   top: 30%;
-}
-
-.footer__btn {
-
 }
 
 @media only screen and (min-width: 1280px) {
@@ -214,16 +211,6 @@ section.hero .meta__credit--items .content svg {
   border-radius: 10px;
 }
 
-.page-content .oscar-won .oscar-won__border::before {
-  content: "";
-  background: inherit;
-  height: 100%;
-  left: calc(100% - 0.85rem);
-  position: absolute;
-  width: 1.7rem;
-  transform: skewX(-20deg);
-}
-
 .page-content .video__img .video__img--bg::before {
   content: "";
   position: absolute;
@@ -379,3 +366,44 @@ section.hero .meta__credit--items .content svg {
 .office .office__links .content {
   text-decoration-color: black;
 }
+
+/* Responsive */
+
+@media only screen and (min-width: 1024px) {
+  .page-content .oscar-won .oscar-won__border::before {
+    content: "";
+    background: inherit;
+    height: 100%;
+    left: calc(100% - 0.85rem);
+    position: absolute;
+    width: 1.7rem;
+    transform: skewX(-20deg);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .video {
+    position: relative;
+    width: 110%;
+  }
+
+  .video .arrow__slider {
+    right: 5%;
+    top: 20%;
+  }
+
+  .photo {
+    position: relative;
+    width: 110%;
+  }
+
+  .photo .arrow__slider {
+    right: 5%;
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
