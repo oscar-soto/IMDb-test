@@ -1244,7 +1244,7 @@
           </section>
 
           <!-- Storyline -->
-          <section class="like text-opacity-80 mb-4 py-5">
+          <section class="story text-opacity-80 mb-4 py-5">
             <div class="content__title mb-6 flex justify-between items-center">
               <h3 class="text-3xl pl-3 relative flex items-center font-semibold">
                 Storyline
@@ -1260,34 +1260,72 @@
               </div>
             </div>
 
-            <div class="cast__meta w-full">
+            <div class="story__meta w-full">
               <div class="meta__credit">
+                <!-- Storyline Resumen -->
+                <div class="meta__resume mb-3 tracking-wide text-black text-opacity-80">
+                  <p >Based on the true story of <a href="#">Leigh Anne Tuohy</a> and Sean Tuohy who take in a homeless teenage African-American, Michael Oher. Michael has no idea who his father is and his mother is a drug addict. Michael has had little formal education and few skills to help him learn. Leigh Anne soon takes charge however, as is her nature, ensuring that the young man has every opportunity to succeed. When he expresses an interest in football, she goes all out to help him, including giving the coach a few ideas on how best to use Michael's skills. They not only provide him with a loving home, but hire a tutor to help him improve his grades to the point where he would qualify for an NCAA Division I athletic scholarship. Michael Oher was the first-round pick of the Baltimore Ravens in the 2009 NFL draft.—garykmcd</p>
+                </div>
+
+                <!-- Storyline Plot Btn -->
+                <div class="meta__plot mb-5">
+                  <ul class="meta__btn flex items-center mb-4">
+                    <li class="py-2 px-3 border-2 border-black mr-3 mb-2 border-opacity-60 rounded-3xl leading-3 hover:bg-black hover:bg-opacity-10 transition duration-300">
+                      <a href="#" class="text-sm leading-3">Biography</a>
+                    </li>
+                    <li class="py-2 px-3 border-2 border-black mr-3 mb-2 border-opacity-60 rounded-3xl leading-3 hover:bg-black hover:bg-opacity-10 transition duration-300">
+                      <a href="#" class="text-sm leading-3">Drama</a>
+                    </li>
+                    <li class="py-2 px-3 border-2 border-black mr-3 mb-2 border-opacity-60 rounded-3xl leading-3 hover:bg-black hover:bg-opacity-10 transition duration-300">
+                      <a href="#" class="text-sm leading-3">Sport</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Storyline Plot Link-->
+                <div class="meta__plotLink">
+                  <ul class="point-list op-b flex py-3 text-blue-500">
+                    <li class="points">
+                      <a href="#" class="hover:underline">Plot summary</a>
+                    </li>
+                    <li class="points">
+                      <a href="#" class="hover:underline">Plot synopsis</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Storyline Credir-->
                 <ul class="meta__credit--list">
                   <li class="meta__credit--items flex items-center border-t"> 
-                    <div class="title py-3 pr-3 font-semibold tracking-wide">Director</div>
+                    <div class="title py-3 pr-3 font-semibold tracking-wide">Taglines</div>
                     <ul class="meta__credit--items-content point-list flex">
-                      <li class="points text-blue-500 inline">
-                        <a href="#">John Lee Hancock</a>
+                      <li class="points inline">
+                        Based on the extraordinary true story
                       </li>
                     </ul>
                   </li>
-  
-                  <li class="meta__credit--items flex items-center flex-wrap border-t"> 
-                    <div class="title py-3 pr-3 font-semibold tracking-wide">Writers</div>
-                    <ul class="meta__credit--items-content point-list xl:flex">
+
+                  <li class="meta__credit--items flex items-center border-t"> 
+                    <div class="title py-3 pr-3 font-semibold tracking-wide">Genres</div>
+                    <ul class="meta__credit--items-content point-list flex">
                       <li class="points text-blue-500 inline">
-                        <a href="#">John Lee Hancock</a>
+                        <a href="#">Biography</a>
                       </li>
                       <li class="points text-blue-500 inline">
-                        <a href="#">Michael Lewis</a>
-                        <span class="text-black text-opacity-50 ml-2">(book "The Blind Side: Evolution of a Game")</span>
+                        <a href="#">Drama</a>
+                      </li>
+                      <li class="points text-blue-500 inline">
+                        <a href="#">Sport</a>
                       </li>
                     </ul>
                   </li>
   
                   <li class="meta__credit--items relative flex items-center border-t"> 
-                    <a class="title py-3 pr-3 font-semibold tracking-wide" href="#">All cast & crew</a>
-                    <a href="" class="arrow absolute right-0">
+                    <a class="flex items-center justify-between w-full py-3 pr-3 tracking-wide" href="#">
+                      <div class="meta-item__header">
+                        <div class="title font-semibold">Motion Picture Rating (MPAA)</div>
+                        <div class="description">Rated PG-13 for one scene involving brief violence, drug and sexual references</div>
+                      </div>
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="" viewBox="0 0 24 24" fill="currentColor" role="presentation">
                         <path fill="none" d="M0 0h24v24H0V0z"></path>
                         <path d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"></path>
@@ -1295,14 +1333,15 @@
                     </a>
                   </li>
   
-                  <li class="meta__credit--items border-t border-b py-3 t-3 w-full">
-                    <a href="#">
-                      <div class="content relative flex items-center font-semibold tracking-wide">
-                        See more cast details at IMDbPro
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="absolute right-0 h-4 w-4" viewBox="0 0 24 24" fill="currentColor" role="presentation">
-                          <path d="M21.6 21.6H2.4V2.4h7.2V0H0v24h24v-9.6h-2.4v7.2zM14.4 0v2.4h4.8L7.195 14.49l2.4 2.4L21.6 4.8v4.8H24V0h-9.6z"></path>
-                        </svg>
+                  <li class="meta__credit--items relative flex items-center border-t border-b"> 
+                    <a class="flex items-center justify-between w-full py-3 pr-3 tracking-wide" href="#">
+                      <div class="meta-item__header">
+                        <div class="title font-semibold">Parents guide</div>
                       </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="" viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                        <path fill="none" d="M0 0h24v24H0V0z"></path>
+                        <path d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"></path>
+                      </svg>
                     </a>
                   </li>
                 </ul>

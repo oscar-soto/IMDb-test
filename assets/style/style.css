@@ -24,6 +24,10 @@ html {
   opacity: 0.5;
 }
 
+.point-list.op-b .points::before {
+  background-color: black;
+}
+
 .point-list.op-1 .points::before {
   opacity: 1;
 }
@@ -265,12 +269,16 @@ section.hero .meta__credit--items .content svg {
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.5);
 }
 
-.page-content .like__meta .meta__resume a{
+.page-content .story__meta .meta__resume a{
   color: #0e63be;
 }
 
-.page-content .like__meta .meta__resume a:hover {
+.page-content .story__meta .meta__resume a:hover {
   text-decoration: underline;
+}
+
+.page-content .story__meta .meta__plot ul li:last-child {
+  color: #0e63be;
 }
 
 
