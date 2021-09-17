@@ -342,12 +342,12 @@ section.hero .meta__credit--items .content svg {
   z-index: 1;
 }
 
-.reviews .user-review .card__featured .card__featured--header .top{
+.top{
   position: relative;
   letter-spacing: 0.15rem;
 }
 
-.reviews .user-review .card__featured .card__featured--header .top::before{
+.top::before{
   content: '';
   position: absolute;
   width: .75rem;
@@ -368,3 +368,6 @@ section.hero .meta__credit--items .content svg {
   text-decoration-color: black;
 }
 
+.suggest__btn {
+  width: 48%;
+}
